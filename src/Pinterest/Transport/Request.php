@@ -180,8 +180,8 @@ class Request {
                     CURLOPT_POSTFIELDS      => $parameters
                 ) );
 
-                if(defined('CURLOPT_SAFE_UPLOAD'))
-                    $ch->setOption( CURLOPT_SAFE_UPLOAD, false );
+                //if(defined('CURLOPT_SAFE_UPLOAD'))
+                //    $ch->setOption( CURLOPT_SAFE_UPLOAD, false );
 
                 break;
             case 'DELETE':
